@@ -7,29 +7,49 @@
     <!-- Title Added -->
     <title>Penguin Fashion</title>
 
+    <!-- Font Awesome CDN Kit link Added -->
+    <script src="https://kit.fontawesome.com/8235150df8.js" crossorigin="anonymous"></script>
+
     <!-- Favicon Link Added -->
     <link rel="shortcut icon" href="../assets/icons/penguin.png" type="image/x-icon">
 
     <!-- Tailwind CSS CLI Link Added -->
     <link href="./output.css" rel="stylesheet">
-
 </head>
 
 <body>
-    <h1 class="text-7xl text-center text-orange-600 font-primary">Hello World...</h1>
 
-    <!---------- Heading Section Added ---------->
-    <header class="">
+    <!--------------- Heading Section Added --------------->
+    <header class="bg-[#FFFBF0] max-w-[1440px] mx-auto">
 
-        <!----- Navbar Added ----->
-        <nav class="">
+        <!---------- Navbar Added ---------->
+        <nav class="max-w-[1170px] mx-auto flex justify-between items-center p-4 sm:p-0 sm:py-4">
+
+            <!----- Logo ----->
+            <div class="max-w-[200px] sm:max-w-[250px] md:max-w-[300px]">
+                <img src="../assets/icons/logo.png" alt="logo" class="w-full h-auto">
+            </div>
+
+            <!----- Mobile Menu Icon (Visible only on small screens) ----->
+            <div class="sm:hidden text-2xl text-[#3C3C3C]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!----- Nav Links (Hidden on small screens) ----->
+            <div class="hidden sm:flex space-x-6 text-base font-medium text-[#3C3C3C]">
+                <a href="">Home</a>
+                <a href="">Product</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
 
         </nav>
 
-        <!----- Banner Section Added ----->
+        <!---------- Banner Section Added ---------->
         <div class="">
 
         </div>
+
     </header>
 
 </body>
