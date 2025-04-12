@@ -1,6 +1,13 @@
+/* ----------Google Fonts Added---------- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+/* font-family: "Bebas Neue", sans-serif; */
+
 @import "tailwindcss";
 
 /* ----------Custom Styles Added---------- */
 @theme {
-    --color-primary: #00ffff
+  --color-primary: #00ffff;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Bebas Neue", sans-serif;
 }
