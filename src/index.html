@@ -73,7 +73,7 @@
     </header>
 
     <!--------------- Main Section Added --------------->
-    <main class="max-w-[1170px] mx-auto px-4 sm:px-0 outline-1">
+    <main class="max-w-[1170px] mx-auto px-4 sm:px-0">
 
         <!---------- Women Jacket Section Added ---------->
         <div class="mt-12 mb-24">
@@ -260,6 +260,36 @@
         </div>
 
     </main>
+
+    <!---------- Footer Section Added ---------->
+    <footer class="bg-[#FFFBF0] max-w-[1440px] mx-auto text-center py-10">
+        <p class="px-4 sm:px-0"> &copy; <span id="year-range"></span> - All Rights Reserved by Ahsan Habib.</p>
+    </footer>
+
+    <!---------- JavaScript Added Create to Current Dynamic Year Update ---------->
+    <script>
+
+        // -----Website launch year Added-----
+        const createdYear = 2025;
+
+        // -----Get the current year from the system-----
+        const currentYear = new Date().getFullYear();
+
+        // -----Initialize the year range string-----
+        let yearRange = "";
+
+        // -----If the website was created this year, show only that year Otherwise, show a range like "2025–2026"-----
+        if (createdYear === currentYear) {
+            yearRange = `${createdYear}`;
+        }
+        else {
+            yearRange = `${createdYear}-${currentYear}`;
+        }
+
+        // -----Update the year range into the footer span with ID "year-range"-----
+        document.getElementById("year-range").textContent = yearRange;
+
+    </script>
 
 </body>
 
