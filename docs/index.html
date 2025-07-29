@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title Added -->
+    <title>Penguin Fashion</title>
+
+    <!-- Font Awesome CDN Kit link Added -->
+    <script src="https://kit.fontawesome.com/8235150df8.js" crossorigin="anonymous"></script>
+
+    <!-- Favicon Link Added -->
+    <link rel="shortcut icon" href="../assets/icons/penguin.png" type="image/x-icon">
+
+    <!-- Tailwind CSS CLI Link Added -->
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--------------- Heading Section Added --------------->
+    <header class="bg-[#FFFBF0] max-w-[1440px] mx-auto">
+
+        <!---------- Navbar Added ---------->
+        <nav class="max-w-[1170px] mx-auto flex justify-between items-center p-4 sm:p-0 sm:py-4">
+
+            <!----- Logo ----->
+            <div class="max-w-[200px] sm:max-w-[250px] md:max-w-[300px] cursor-pointer">
+                <img src="../assets/icons/logo.png" alt="logo" class="w-full h-auto">
+            </div>
+
+            <!----- Mobile Menu Icon (Visible only on small screens) ----->
+            <div class="sm:hidden text-2xl text-[#3C3C3C]">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!----- Nav Links (Hidden on small screens) ----->
+            <div class="hidden sm:flex space-x-6 text-base font-medium text-[#3C3C3C]">
+                <a href="">Home</a>
+                <a href="">Product</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+
+        </nav>
+
+        <!---------- Banner Section Added ---------->
+        <div class="max-w-[1170px] mx-auto sm:flex sm:items-center sm:justify-between px-4 py-12 sm:px-0">
+
+            <!----- Banner Text Content Added ----->
+            <div class="mb-5 sm:mb-0">
+                <h1 class="sm:text-[80px] text-6xl font-secondary text-[#FABE4C]">Be the Penguins <br> <span
+                        class="text-[#363958]">of Winter</span></h1>
+
+                <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.
+                </p>
+
+                <!----- Button Added ----->
+                <button
+                    class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                        class="fa-solid fa-cart-shopping mr-1"></i>
+                    BUY NOW</button>
+            </div>
+
+            <!----- Banner Image Added ----->
+            <div class="sm:mr-12 mb-20">
+                <img class="w-full h-auto" src="../assets/images/model.png" alt="Banner image">
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--------------- Main Section Added --------------->
+    <main class="max-w-[1170px] mx-auto px-4 sm:px-0">
+
+        <!---------- Women Jacket Section Added ---------->
+        <div class="mt-12 mb-24">
+            <h3 class="text-5xl font-secondary mb-5 text-center sm:text-start">WOMEN JACKET</h3>
+
+            <!---------- Women Jacket Card Container Added ---------->
+            <div class="sm:grid md:grid-cols-2 lg:grid-cols-3">
+
+                <!----- Jacket Card 1 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-1.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Yellow Coat Jacket</h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+                <!----- Jacket Card 2 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-2.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Ladies Jacket </h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+                <!----- Jacket Card 3 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-3.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Woman Leather Jacket </h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!---------- Men Jacket Section Added ---------->
+        <div class="mb-24">
+            <h3 class="text-5xl font-secondary mb-5 text-center sm:text-start">MEN JACKET</h3>
+
+            <!---------- Men Jacket Card Container Added ---------->
+            <div class="sm:grid md:grid-cols-2 lg:grid-cols-3">
+
+                <!----- Jacket Card 1 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-4.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Snowboard Jacket Mens</h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+                <!----- Jacket Card 2 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-5.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Man Leather Jackets</h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+                <!----- Jacket Card 3 Added ----->
+                <div class="p-5 rounded-3xl drop-shadow-xl">
+                    <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="../assets/images/jacket-6.png" alt="jacket-1">
+                    <h4 class="text-2xl font-bold mt-4 mb-3">Man Casual Jackets</h4>
+                    <p class="mb-3">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+
+                    <!----- Product Price and Button Added ----->
+                    <div class="flex items-center justify-between">
+                        <h4 class="text-4xl font-black text-[#FABE4C]">$234</h4>
+                        <!----- Button Added ----->
+                        <button
+                            class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 font-medium rounded-xl mt-2 cursor-pointer"><i
+                                class="fa-solid fa-cart-shopping mr-1"></i>
+                            BUY NOW</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!---------- Our Services Section Added ---------->
+        <div class="mb-24 flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center sm:gap-12">
+
+            <!----- Service Cards Container Added ----->
+            <div class="w-full sm:w-2/5">
+
+                <!----- Service Card 1 ----->
+                <div class="flex flex-col sm:flex-row items-center mt-12 sm:mt-0 rounded-[20px] shadow-lg mb-6">
+                    <div class="sm:mr-9 sm:ml-6">
+                        <img class="w-full max-w-[80px] mt-5" src="../assets/icons/house.png" alt="house icon">
+                    </div>
+
+                    <div class="mt-4 mb-5">
+                        <h4 class="text-2xl font-bold text-[#363958] text-center mb-3 sm:text-start">Find the Perfect
+                            Fit</h4>
+                        <p class="text-[#3E3E3E] text-center sm:text-start ">Everybody is different, which is why we
+                            <br>offer styles
+                            for every
+                            body.
+                        </p>
+                    </div>
+                </div>
+
+                <!----- Service Card 2 ----->
+                <div class="flex flex-col sm:flex-row items-center mt-12 sm:mt-0 rounded-[20px] shadow-lg mb-6">
+                    <div class="sm:mr-9 sm:ml-6">
+                        <img class="w-full max-w-[80px] mt-5" src="../assets/icons/box.png" alt="house icon">
+                    </div>
+
+                    <div class="mt-4 mb-5">
+                        <h4 class="text-2xl font-bold text-[#363958] text-center mb-3 sm:text-start">Free Exchanges</h4>
+                        <p class="text-[#3E3E3E] text-center sm:text-start ">One of the many reasons you can shop
+                            <br>with peace of mind.
+                        </p>
+                    </div>
+                </div>
+
+                <!----- Service Card 3 ----->
+                <div class="flex flex-col sm:flex-row items-center mt-12 sm:mt-0 rounded-[20px] shadow-lg mb-6">
+                    <div class="sm:mr-9 sm:ml-6">
+                        <img class="w-full max-w-[80px] mt-5" src="../assets/icons/contact.png" alt="house icon">
+                    </div>
+
+                    <div class="mt-4 mb-5">
+                        <h4 class="text-2xl font-bold text-[#363958] text-center mb-3 sm:text-start">Contact Our Seller
+                        </h4>
+                        <p class="text-[#3E3E3E] text-center sm:text-start ">They are here to help you. That's quite
+                            <br>literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!----- Service Image ----->
+            <div class="w-full sm:w-2/3 flex justify-center items-center mb-8 sm:mb-0">
+                <img class="w-full max-w-sm sm:max-w-md lg:max-w-lg" src="../assets/images/shopping.png"
+                    alt="Shopping Image">
+            </div>
+
+        </div>
+
+    </main>
+
+    <!---------- Footer Section Added ---------->
+    <footer class="bg-[#FFFBF0] max-w-[1440px] mx-auto text-center py-10">
+        <p class="px-4 sm:px-0"> &copy; <span id="year-range"></span> - All Rights Reserved by Ahsan Habib.</p>
+    </footer>
+
+    <!---------- JavaScript Added Create to Current Dynamic Year Update ---------->
+    <script>
+
+        // -----Website launch year Added-----
+        const createdYear = 2025;
+
+        // -----Get the current year from the system-----
+        const currentYear = new Date().getFullYear();
+
+        // -----Initialize the year range string-----
+        let yearRange = "";
+
+        // -----If the website was created this year, show only that year Otherwise, show a range like "2025–2026"-----
+        if (createdYear === currentYear) {
+            yearRange = `${createdYear}`;
+        }
+        else {
+            yearRange = `${createdYear}-${currentYear}`;
+        }
+
+        // -----Update the year range into the footer span with ID "year-range"-----
+        document.getElementById("year-range").textContent = yearRange;
+
+    </script>
+
+</body>
+
+</html>
